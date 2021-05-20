@@ -1,4 +1,4 @@
-package org.acme.getting.started;
+package org.acme.getting.started.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

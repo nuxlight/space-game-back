@@ -49,16 +49,10 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Hibernate ORM specific dependencies -->
+    <!-- Custom addons -->
     <dependency>
       <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-hibernate-orm</artifactId>
-    </dependency>
-
-    <!-- JDBC driver dependencies -->
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-jdbc-postgresql</artifactId>
+      <artifactId>quarkus-mongodb-panache</artifactId>
     </dependency>
   </dependencies>
   <build>
